@@ -19,6 +19,7 @@ specifiers:
   eslint-plugin-prettier: ^4.2.1
   eslint-plugin-promise: ^6.0.0
   express: ^4.18.2
+  husky: ^8.0.0
   nodemon: ^2.0.20
   prettier: ^2.7.1
   ts-node: ^10.9.1
@@ -45,6 +46,7 @@ devDependencies:
   eslint-plugin-n: 15.5.0_eslint@8.27.0
   eslint-plugin-prettier: 4.2.1_v7o5sx5x3wbs57ifz6wc4f76we
   eslint-plugin-promise: 6.1.1_eslint@8.27.0
+  husky: 8.0.1
   nodemon: 2.0.20
   prettier: 2.7.1
   ts-node: 10.9.1_cbe7ovvae6zqfnmtgctpgpys54
@@ -1349,6 +1351,12 @@ packages:
       statuses: 2.0.1
       toidentifier: 1.0.1
     dev: false
+
+  /husky/8.0.1:
+    resolution: {integrity: sha512-xs7/chUH/CKdOCs7Zy0Aev9e/dKOMZf3K1Az1nar3tzlv0jfqnYtu235bstsWTmXOR0EfINrPa97yy4Lz6RiKw==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: true
 
   /iconv-lite/0.4.24:
     resolution: {integrity: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==}
