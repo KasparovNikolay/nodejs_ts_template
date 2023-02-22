@@ -4,9 +4,11 @@ import app from './app';
 import { Request, Response } from 'express';
 
 config();
+
 const PORT = process.env.PORT || 3001;
 
-app.get('/', (req: Request, res: Response) => {
+app.post('/', (req: Request, res: Response) => {
+  console.log('req', req.body);
   res.send('Hello World');
 });
 
